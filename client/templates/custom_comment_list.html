@@ -1,0 +1,14 @@
+<template name="custom_comment_list">
+<div class="row">
+	<div>
+		<div class="comment-list">
+			<ol>
+			{{#each childComments}}
+			  {{> comment_item}}
+			{{/each}}
+			</ol>
+		</div>
+	</div>
+</div>
+  {{> modules zone="commentThreadBottom" moduleData=this}}
+</template>

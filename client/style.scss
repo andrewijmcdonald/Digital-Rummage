@@ -1,0 +1,27 @@
+.post-body, .page-body {
+    background: none;
+}
+.has-shadow, .single-post .posts .post, .post-body, .page-body {
+    box-shadow: none;
+}
+.logo.header-module {
+    margin-bottom: 0;
+}
+h1.logo-text {
+    margin-bottom: 0;
+}
+a, a:link, a:visited, a:active {
+    font-weight: 300!important;
+}
+header {
+    overflow: visible;
+}
+.post-thumbnail-link {
+    width: 100%;
+}
+h3 {
+	font-style: normal!important;
+}
+.posts-list .post {
+    padding: 20px 0 20px 10px;
+}
