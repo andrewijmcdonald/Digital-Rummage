@@ -19,9 +19,47 @@ header {
 .post-thumbnail-link {
     width: 100%;
 }
-h3 {
+h4 {
 	font-style: normal!important;
 }
 .posts-list .post {
     padding: 20px 0 20px 10px;
+}
+/*.btn-primary, .header .btn-primary, .header .btn-primary:link, .header .btn-primary:visited, .error, .mobile-menu-button, .login-link-text, .post-category:hover, .post-admin a:hover {
+    background-color: initial!important;
+}
+.btn-primary, .header .btn-primary, .header .btn-primary:link, .header .btn-primary:visited, .error, .mobile-menu-button, .login-link-text, .post-category:hover, .post-admin a:hover {
+    color: #3498db!important;
+}*/
+.header .btn-primary,{
+	background: #eb7f00!important;
+    color: #fff!important;
+}
+.top-nav .header .primary-nav {
+    order: 2;
+}
+.top-nav .header .logo {
+    order: 1;
+}
+header .logo {
+	max-width: 80px;
+}
+.top-nav .header .logo-image {
+    height: 80%;
+}
+.posts-list .post-module {
+    margin-right: 20px;
+}
+.grid-block, .comment-content, .comment-new {
+    border-radius: 3px;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    box-shadow: none;
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+textarea {
+    border: 1px solid #ddd!important;
 }
