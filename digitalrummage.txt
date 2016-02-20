@@ -6,6 +6,16 @@ Embedly: b64dfed69ea54f7da54805721f13eca8
 
 Professional network for digital artists in Australia.
 
+Email: schmaka@gmail.com
+Deploying to digitalrummage.meteor.com.                                         
+Now serving at http://digitalrummage.meteor.com
+                                              
+You can set a password on your account or change your email address at:
+https://www.meteor.com/setPassword?TDZWNJKQug
+                                              
+
+
+
 
 What will work better for The Rookies?
 
