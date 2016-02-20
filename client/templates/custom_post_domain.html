@@ -1,0 +1,8 @@
+<template name="custom_post_domain">
+  {{#if url}}
+    <span class="post-domain {{moduleClass}}">{{domain}}</span>
+	<a href="{{this.getLink}}" class="post-link" target="{{this.getLinkTarget}}">
+		<i class="icon fa fa-fw fa-external-link" aria-hidden="true"></i>
+	</a>
+  {{/if}}
+</template>

@@ -1,3 +1,10 @@
+.row{
+	margin-left:0px!important;
+	margin-right:0px!important;
+}
+.grid-block, .comment-content, .comment-new {
+    padding: 15px 0 0 20px;
+}
 .post-body, .page-body {
     background: none;
 }
@@ -7,8 +14,16 @@
 .logo.header-module {
     margin-bottom: 0;
 }
+.blog-snippet-3 {
+    padding-top: 40px;
+}
 h1.logo-text {
     margin-bottom: 0;
+}
+h2.page-title{
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 44px;
 }
 a, a:link, a:visited, a:active {
     font-weight: 300!important;
@@ -18,6 +33,9 @@ header {
 }
 .post-thumbnail-link {
     width: 100%;
+}
+.posts-list .post-thumbnail {
+    margin-right: 0px!important;
 }
 h4 {
 	font-style: normal!important;
@@ -51,9 +69,8 @@ header .logo {
     margin-right: 20px;
 }
 .grid-block, .comment-content, .comment-new {
-    border-radius: 3px;
-    padding: 15px 0;
-    margin-bottom: 10px;
+    padding: 15px 0 0 20px;
+    border:none;
     box-shadow: none;
 }
 .form-horizontal .form-group {
@@ -62,4 +79,70 @@ header .logo {
 }
 textarea {
     border: 1px solid #ddd!important;
+}
+
+.markdown{
+  strong{
+    font-weight:bold;
+  }
+  em{
+    font-style:italic;
+  }
+  ul, ol{
+    padding-left:18px;
+  }
+  ul{
+    list-style-type:disc;
+  }
+  ol{
+    list-style-type:decimal;
+  }
+  h1, h2, h3, h4, h5{
+    font-weight:300;
+  }
+h1 {
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 48px;
+}
+h2 {
+  font-size: 28px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 26px;
+  line-height: 32px;
+}
+h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+  code{
+    font-family: monospace;
+    margin: 0 2px;
+    padding: 0px 5px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+  }
+  pre{
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    overflow-x: scroll;
+    code{
+      border: none;
+      background: none;
+    } 
+  }
+  blockquote{
+    border-left: 3px solid #eee;
+    padding-left: 20px;
+  }
 }

@@ -1,0 +1,9 @@
+<template name="custom_footer_code">
+  <div class="footer-code {{moduleClass}}">
+    {{#if footerCode}}
+      {{#markdown}}{{footerCode}}{{/markdown}}
+    {{else}}
+      <div>© 2016 Digital Rummage</div>
+    {{/if}}
+  </div>
+</template>
